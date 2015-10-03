@@ -3,7 +3,7 @@
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="Eboutique"/>
         <property name="java-output-path" value="/Eboutique/build/classes"/>
+        <property name="context-root" value="M2SIR_TPJSF9_Projet"/>
     </wb-module>
 </project-modules>

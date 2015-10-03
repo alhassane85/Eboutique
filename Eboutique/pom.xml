@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>Eboutique</groupId>
-  <artifactId>Eboutique</artifactId>
+  <groupId>M2SIR_TPJSF9_Projet</groupId>
+  <artifactId>M2SIR_TPJSF9_Projet</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <repositories>
@@ -170,8 +170,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.1</version>
         <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
       <plugin>
