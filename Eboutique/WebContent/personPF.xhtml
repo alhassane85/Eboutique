@@ -1,0 +1,28 @@
+<html xmlns="http://www.w3.org/1999/xhtml"  
+     xmlns:h="http://java.sun.com/jsf/html"      
+      xmlns:f="http://java.sun.com/jsf/core"
+     xmlns:p="http://primefaces.org/ui">  
+ <h:head><title>Gestion des Personnes</title></h:head>  
+ <h:body>
+ <p:panel header="Gestion des Personnes" >
+     <h:form>      
+	     <table> 
+		     <tr>
+		     	<td><h:outputLabel for="Name" value="Name : " /></td>
+		     	<td><p:inputText id="Name" value="#{person.name}"/></td>
+		     </tr>
+		       <tr>
+		     	<td><h:outputLabel for="Country" value="Country : " /></td>
+		     	<td><p:inputText id="country" value="#{person.country}"/></td>
+		     	</tr>
+		     	 <tr>
+		     	<td><p:commandButton id="addPerson" value="Add" action="#{personService.addPerson(person)}"/></td>
+		    	 </tr>  
+	     </table>
+     </h:form>  
+   </p:panel>  
+   <div>
+			<h:messages></h:messages>
+		</div>   
+</h:body>
+</html> 
